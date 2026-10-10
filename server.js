@@ -5,7 +5,7 @@ const path = require("path");
 const Kuroshiro = require("kuroshiro");
 const KuromojiAnalyzer = require("kuroshiro-analyzer-kuromoji");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // ======================================
 // KUROSHIRO
@@ -815,7 +815,7 @@ const server =
 
 server.listen(
     PORT,
-    "127.0.0.1",
+    "0.0.0.0",
     () => {
 
         console.log(
