@@ -1,0 +1,13 @@
+{
+  "name": "kajapan-server",
+  "version": "1.0.0",
+  "description": "KAJAPAN backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "wanakana": "^5.3.1"
+  }
+}
